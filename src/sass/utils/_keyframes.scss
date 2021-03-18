@@ -1,0 +1,35 @@
+@keyframes mmenuSlideIn {
+  from {
+    right: -100vw;
+  }
+  to {
+    right: -20px;
+  }
+}
+
+@keyframes mmenuSlideOut {
+  from {
+    right: -20px;
+  }
+  to {
+    right: -100vw;
+  }
+}
+
+@keyframes tmenuSlideIn {
+  from {
+    right: -100vw;
+  }
+  to {
+    right: -30px;
+  }
+}
+
+@keyframes tmenuSlideOut {
+  from {
+    right: -30px;
+  }
+  to {
+    right: -100vw;
+  }
+}
