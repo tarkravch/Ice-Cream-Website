@@ -1,7 +1,0 @@
-@function getRange($point) {
-  @each $device, $range in $breakpoints {
-    @if ($device == $point) {
-      @return $range;
-    }
-  }
-}
