@@ -5,10 +5,11 @@
     "main": "index.js",
     "homepage": "https://tarkravch.github.io/Ice-Cream-Website",
     "scripts": {
-        "dev": "parcel src/*.html",
-        "build": "parcel build src/*.html --public-url /Ice-Cream-Website/",
-        "predeploy": "npm run build -- --public-url /ice-creame/",
-        "deploy": "gh-pages -d dist"
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html --public-url /Ice-Cream-Website/",
+        "deploy": "gh-pages -d dist",
+        "predeploy": "npm run build"
+
     },
     "repository": {
         "type": "git",
